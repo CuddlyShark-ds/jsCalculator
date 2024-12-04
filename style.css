@@ -14,17 +14,17 @@
 }
 
 .display-container {
-    width: 256px;
-    border-left: 2px rgb(46, 45, 45) solid;
-    border-bottom: 2px rgb(46, 45, 45) solid;
-    border-right: 2px rgb(104, 100, 100) solid;
-    border-top: 2px rgb(104, 100, 100) solid;
+    width: 512px;
+    border-left: 4px rgb(46, 45, 45) solid;
+    border-bottom: 4px rgb(46, 45, 45) solid;
+    border-right: 4px rgb(104, 100, 100) solid;
+    border-top: 4px rgb(104, 100, 100) solid;
 }
 
 .display {
-    height: 64px;
+    height: 128px;
     background-color: rgb(165, 160, 160);
-    border: 8px rgb(68, 65, 65) solid;
+    border: 16px rgb(68, 65, 65) solid;
 }
 
 .row {
@@ -36,24 +36,26 @@
     justify-content: center;
     align-items: center;
 
-    width: 64px;
-    height: 64px;
+    width: 128px;
+    height: 128px;
 }
 
 .lg-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 256px;
-    height: 64px;
+    width: 512px;
+    height: 128px;
 }
 
 .color-style {
     color: aliceblue;
+    font-size: 24px;
+    font-weight: 900;
 
     background-color: rgb(68, 65, 65);
-    border-left: 2px rgb(46, 45, 45) solid;
-    border-bottom: 2px rgb(46, 45, 45) solid;
-    border-right: 2px rgb(104, 100, 100) solid;
-    border-top: 2px rgb(104, 100, 100) solid;
+    border-left: 4px rgb(46, 45, 45) solid;
+    border-bottom: 4px rgb(46, 45, 45) solid;
+    border-right: 4px rgb(104, 100, 100) solid;
+    border-top: 4px rgb(104, 100, 100) solid;
 }
