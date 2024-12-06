@@ -21,35 +21,35 @@
 
     <div class="calc-body">
         <div class="display-container">
-            <div class="display"></div>
+            <div id="display" class="display"></div>
         </div>
         <div class="button-container">
             <div class="row">
-                <div class="btn color-style">7</div>
-                <div class="btn color-style">8</div>
-                <div class="btn color-style">9</div>
-                <div class="btn color-style">/</div>
+                <div class="btn color-style" onclick="getInput(7)">7</div>
+                <div class="btn color-style" onclick="getInput(8)">8</div>
+                <div class="btn color-style" onclick="getInput(9)">9</div>
+                <div class="btn color-style" onclick="getInput('/')">/</div>
             </div>
             <div class="row">
-                <div class="btn color-style">4</div>
-                <div class="btn color-style">5</div>
-                <div class="btn color-style">6</div>
-                <div class="btn color-style">x</div>
+                <div class="btn color-style" onclick="getInput(4)">4</div>
+                <div class="btn color-style" onclick="getInput(5)">5</div>
+                <div class="btn color-style" onclick="getInput(6)">6</div>
+                <div class="btn color-style" onclick="getInput('*')">x</div>
             </div>
             <div class="row">
-                <div class="btn color-style">1</div>
-                <div class="btn color-style">2</div>
-                <div class="btn color-style">3</div>
-                <div class="btn color-style">-</div>
+                <div class="btn color-style" onclick="getInput(1)">1</div>
+                <div class="btn color-style" onclick="getInput(2)">2</div>
+                <div class="btn color-style" onclick="getInput(3)">3</div>
+                <div class="btn color-style" onclick="getInput('-')">-</div>
             </div>
             <div class="row">
-                <div class="btn color-style">C</div>
-                <div class="btn color-style">0</div>
-                <div class="btn color-style">.</div>
-                <div class="btn color-style">+</div>
+                <div class="btn color-style" onclick="clear()">C</div>
+                <div class="btn color-style" onclick="getInput(0)">0</div>
+                <div class="btn color-style" onclick="getInput('.')">.</div>
+                <div class="btn color-style" onclick="getInput('+')">+</div>
             </div>
             <div class="row">
-                <div class="lg-btn color-style">=</div>
+                <div class="lg-btn color-style" onclick="operate()">=</div>
             </div>
         </div>
     </div>

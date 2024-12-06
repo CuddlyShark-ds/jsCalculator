@@ -1,4 +1,8 @@
 * {
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 900;
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,6 +26,10 @@
 }
 
 .display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 96px;
     height: 128px;
     background-color: rgb(165, 160, 160);
     border: 16px rgb(68, 65, 65) solid;
@@ -49,10 +57,6 @@
 }
 
 .color-style {
-    color: aliceblue;
-    font-size: 24px;
-    font-weight: 900;
-
     background-color: rgb(68, 65, 65);
     border-left: 4px rgb(46, 45, 45) solid;
     border-bottom: 4px rgb(46, 45, 45) solid;
