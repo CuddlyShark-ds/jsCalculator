@@ -11,4 +11,9 @@ function getInput(userInput){
     console.log(currentDisplayText)
 }
 
+function clearDisplay(){
+    currentDisplayText = "";
+    document.getElementById("display").innerHTML = currentDisplayText;
+}
+
 main()
